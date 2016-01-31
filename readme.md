@@ -41,7 +41,10 @@ config.py          | DOMAIN      | 你申请的应用的域名        |
 8. 执行两条Cmd命令：  
 	* `c:\python27\python.exe appcfg.py update kindleear目录\app.yaml kindleear目录\module-worker.yaml`  
 	* `c:\python27\python.exe appcfg.py update kindleear目录`
-
+	* `c:\python27\python.exe appcfg.py update_indexes kindleear目录`
+	* `c:\python27\python.exe appcfg.py update_cron kindleear目录`
+	* `c:\python27\python.exe appcfg.py update_queues kindleear目录`
+	* `c:\python27\python.exe appcfg.py update_dispatch kindleear目录`
 9. 全部完成后就可以尝试打开域名：  
 *http://appid.appspot.com*  (appid是你申请的application名字)  
 比如作者的网站域名为：<http://kindleear.appspot.com/>  
